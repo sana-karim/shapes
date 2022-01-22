@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Shapes</title>
+        <style>
+            * {
+                margin: 0px;
+            }
+            .rectangle {
+                width: 200px;
+                height: 100px;
+                background-color: #09c0fa;
+                transition-property: background-color, border-radius; 
+                transition-duration: 1s, 5s;
+                transition-timing-function: ease, linear ;
+
+
+            }
+            .circle {
+                width: 150px;
+                height: 150px;
+                background-color: #ffb647;
+                border-radius: 100px;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+            }
+            .square {
+                width: 150px;
+                height: 150px;
+                background-color: #7920ff;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+            .curved-rectangle {
+                width: 200px;
+                height: 100px;
+                background-color: #19f0f0;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                border-radius: 15px;
+            }
+            .oval {
+                width: 200px;
+                height: 100px;
+                background-color: #ffb2db;
+                border-radius: 50%; 
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -100px;
+
+            }
+            /* div:hover{
+                background-color: #f4f5f8; 
+            }*/
+            .rectangle:hover {     /* rectangle to oval */
+                width: 200px;
+                height: 100px;
+                background-color: #691727;
+                border-radius: 50%; 
+                
+            }
+            /* .square:hover {
+                width: 150px;
+                height: 150px;
+                background-color: #ffb647;
+                border-radius: 100px;
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+            }
+            .curved-rectangle:hover {
+                width: 200px;
+                height: 100px;
+                background-color: #09c0fa;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+               
+            } */
+        </style>   
+    </head>
+    <body>
+        <div class="rectangle"></div>
+        <div class="circle"></div>
+        <div class="square"></div>
+        <div class="curved-rectangle"></div>
+        <div class="oval"></div>
+
+    </body>
+</html>
